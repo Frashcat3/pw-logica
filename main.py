@@ -1,5 +1,4 @@
-x = "Airton"
-y = 10
+nome = "Arthur"
+sobrenome = "Barreto"
 
-print(x)
-print(y)
+print(nome, sobrenome)
