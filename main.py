@@ -1,9 +1,9 @@
-nome = input("Seu nome:")
-ano_nascimento = int(input("Ano de nascimento:"))
 ano_atual = 2026
-
-idade = ano_atual - ano_nascimento
-ano_100 = ano_nascimento + 100
-
-print(f"{nome}, você tem (ou vai fazer) {idade} anos em {ano_atual}")
-print(f"Você vai completar 100 anos em {ano_100}")
+print("Cadastro da pessoa 1")
+nome1 = input("Digite seu nome: ")
+ano1 = int(input("Digite seu ano de nascimento: "))
+idade1 = ano_atual - ano1
+ano100_1 = ano1 + 100
+print(f"{nome1} te, (ou vai fazer) {idade1} anos.")
+print(f"Vai completar 100 anos em {ano100_1}.")
+print("-----------------------------------")
