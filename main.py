@@ -1,7 +1,10 @@
-nomes ["Lucas", "Vinicios", "Davi", "Arthur", "Murilo", "Arthur F", "Maria", "Pietro", "Miguel", "Apollo", "Bernardo", "Eric", "Kaua"]
+a = 10
+b = 4
 
-print(nomes[10])
-print(nomes[7])
-print(nomes[2])
-print(nomes[4])
-print(nomes[12])
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} x {b} = {a * b}")
+print(f"{a} / {b} = {a/b}")
+print(f"{a} // {b} = {a // b}") 
+print(f"{a} % {b} = {a % b}") #% faz a divisão
+print(f"{a} ** {b} = {a ** b}")
