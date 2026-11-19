@@ -1,21 +1,12 @@
-num1 = float(input("Digite o primeiro numero: "))
-num2  = float(input("Digite o segundo numero: "))
-operacao = input("Escolha a operação desejada (+, -, *, /): ")
+a = int(input("Digite o lado A: "))
+b= int(input("Digite o lado B: "))
+c = int(input("Digite o lado C: "))
 
-if operacao == "+":
-    resultado = num1 + num2
-    print(f"Resultado: {resultado:.2f}")
-if operacao == "-":
-    resultado = num1 - num2
-    print(f"Resultado: {resultado:.2f}")
-if operacao == "*":
-    resultado
-    print(f"Resultado: {resultado:.2f}")
-elif operacao == "/":
-    if num2 != 0:
-       resultado = num1 - num2
-       print(f"Resultado: {resultado:.2f}")
-    else:
-        print("Erro! Não pode dividir por zero!")    
-else:
-    print("Operação Inválida!")
+#etapa 1
+if a < b + c and b < a + c and c < a + b:
+
+    print("Forma um triângulo!")
+
+    #etapa 2
+    if a == b and b == c:
+        print("Triangulo Equilátero!")
