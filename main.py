@@ -1,12 +1,5 @@
-a = int(input("Digite o lado A: "))
-b= int(input("Digite o lado B: "))
-c = int(input("Digite o lado C: "))
+contador = 1
 
-#etapa 1
-if a < b + c and b < a + c and c < a + b:
-
-    print("Forma um triângulo!")
-
-    #etapa 2
-    if a == b and b == c:
-        print("Triangulo Equilátero!")
+while contador <= 5:
+    print("Olá, mundo")
+    contador = contador + 1
