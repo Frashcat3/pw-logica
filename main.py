@@ -1,13 +1,15 @@
-numero = int(input("Digite um número inteiro positivo: "))
-pares = 0
-impares = 0
+filme1 = "Clube da luta"
+filme2 = "Era do gelo"
+filme3 = "Jurassic park"
+filme4 = "Godzilla minus zero"
+filme5 = "De volta ao jogo"
+print(f"Meus filmes favoritos são: ")
+print(filme1)
+print(filme2)
+print(filme5)
+print(filme4)
+print(filme5)
+      
+filmes = ["Clube da luta", "Era do gelo", "Jurassic Park", "Godzilla minus zero", "De volta ao jogo"]
 
-for contador in range(1, numero + 1)
-
-    if contador % 2 == 0
-        pares += 1
-    else:
-        impares += 1
-
-print (f"Quantidade de números pares {pares}")
-print (f"Quantidade de número ímpares {impares}")
+quantidade = len(filmes)
