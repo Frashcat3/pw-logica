@@ -1,15 +1,6 @@
-filme1 = "Clube da luta"
-filme2 = "Era do gelo"
-filme3 = "Jurassic park"
-filme4 = "Godzilla minus zero"
-filme5 = "De volta ao jogo"
-print(f"Meus filmes favoritos são: ")
-print(filme1)
-print(filme2)
-print(filme5)
-print(filme4)
-print(filme5)
-      
-filmes = ["Clube da luta", "Era do gelo", "Jurassic Park", "Godzilla minus zero", "De volta ao jogo"]
+filmes = ["Pulp Fiction", "Era do Gelo", "Gente Grande", "Toy Story", "Harry Potter"]
 
-quantidade = len(filmes)
+print("Lista completa de filmes: \n {filmes}")
+print(f"\nO primeiro filme é {filmes[0]}") 
+print(f"\nO último filme é {filmes[4]}")
+print(f"\nA quantidade de filmes é {len(filmes)}")
